@@ -13,24 +13,6 @@ export const fibs = (number) => {
     return arr;
 }
 
-const fibsNumberRec = (number) => {
-    if (number + 1 == 1) {
-        return 0;
-    }
-    if (number + 1 == 2) {
-        return 1;
-    }
-    return fibsNumberRec(number - 1) + fibsNumberRec(number - 2);
-}
-
-export const fibsArrayRec = (number) => {
-    const outputArr = [];
-    for (let i = 0; i < number; i++) {
-        outputArr.push(fibsNumberRec(i));
-    }
-    return outputArr;
-}
-
 export const fibsRec = (number) => {
     if (number == 1) {
         return [0];

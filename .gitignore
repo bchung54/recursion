@@ -3,6 +3,7 @@
 
 # testing
 /coverage
+/__test__/recursion.test.js
 
 # misc
 recursion.js
